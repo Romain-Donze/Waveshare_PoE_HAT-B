@@ -2,6 +2,7 @@
 Complete package to easily set up the WaveShare Raspberry Pi PoE HAT Type (B) with display
 
 Derived from https://www.waveshare.com/wiki/PoE_HAT_(B)
+
 Derived from https://gist.github.com/CharlesGodwin/adda3532c070f6f6c735927a5d6e8555
 
 The supplied program will control the fan but for it to work you must slide the FAN switch on the HAT to the P0 position.
