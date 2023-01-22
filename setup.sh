@@ -14,8 +14,7 @@ sudo pip3 install RPi.GPIO smbus numpy
 [ -d ~/.poe-hat ] && rm -rf ~/.poe-hat
 mkdir -p ~/.poe-hat
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-cp -r $SCRIPT_DIR/PoE_HAT_B_code/lib ~/.poe-hat
-cp -r $SCRIPT_DIR/PoE_HAT_B_code/main.py ~/.poe-hat
+cp -r $SCRIPT_DIR/PoE_HAT_B_code ~/.poe-hat
 # cleanup
 rm -rf $SCRIPT_DIR
 #
