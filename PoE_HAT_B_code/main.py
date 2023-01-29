@@ -17,7 +17,7 @@ POE = POE_HAT_B.POE_HAT_B()
         
 try:  
     while(1):
-        POE.POE_HAT_Display(60, 43)
+        POE.POE_HAT_Display(60, 45)
         time.sleep(1)
         
 except KeyboardInterrupt:    
